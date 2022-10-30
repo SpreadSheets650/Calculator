@@ -58,11 +58,11 @@ while True:
         # break the while loop if answer is no
         next_calculation = input("Should We Do Another Calculation ? ( Yes / No ) : ")
         if next_calculation == "no":
-            print ("Thank You For Using My Calculator | Please Rate It Bettween 0 - 10")
+            print ("Thank You For Using My Calculator | Please Rate It Between 0 - 10")
             rate = int(input("Your Rating : "))
             
         if rate <= 5:
-            print ("It's Sad To Hear That, I Will Try To Improve Next Time")
+            print ("It is Sad To hear That Will Try to Fix It And Improve It Next Time")
         if rate > 5:
             print ("Thank You For Your Amazing Rate")
         if rate >= 10:
